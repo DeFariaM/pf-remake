@@ -10,6 +10,14 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: "var(--brand)",
+        secondary: "var(--secondary)",
+        accent: "var(--accent)",
+        bgray: "var(--bgray)",
+      },
+      fontFamily: {
+        bebas: "var(--bebas)",
+        montserrat: "var(--mont)",
       },
     },
   },
