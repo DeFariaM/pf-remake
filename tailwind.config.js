@@ -19,6 +19,9 @@ module.exports = {
         bebas: "var(--bebas)",
         montserrat: "var(--mont)",
       },
+      backgroundImage: {
+        pattern: "url('../public/img/subtle-prism.svg')",
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
