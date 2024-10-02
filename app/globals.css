@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
   margin-top: 20px;
 }
 

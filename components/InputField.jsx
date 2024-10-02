@@ -7,6 +7,7 @@ export default function InputField({
   onChange = () => {},
   className,
   required = true,
+  error = "",
 }) {
   return (
     <div className="entryarea">
@@ -19,6 +20,7 @@ export default function InputField({
         required={required}
       />
       <div className="labelline font-bebas">{label}</div>
+      <p className="text-sm text-brand">{error}</p>
     </div>
   );
 }
