@@ -17,7 +17,7 @@ export default function AuthLayout({ children }) {
           priority
         />
       </div>
-      <div className="min-h-[500px] max-w-[600px] flex-col items-center justify-center gap-4 rounded-lg bg-gray-100 p-6 shadow-md">
+      <div className="min-h-[500px] max-w-[600px] flex-col items-center justify-center gap-3 rounded-lg bg-gray-100 px-6 py-3 shadow-md">
         <div className="flex flex-col items-center justify-evenly gap-4 lg:flex-row">
           <Image
             alt=""

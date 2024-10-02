@@ -64,7 +64,6 @@ export const signUp = async ({ email, password, name }) => {
     uid,
     displayName,
     email,
-    photoURL,
   };
 };
 
