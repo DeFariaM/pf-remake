@@ -75,6 +75,3 @@ export const resetPassword = async (email) => {
     ok: true,
   };
 };
-
-//*==========DATABASE FUNCTIONS==========*//
-//*==========STORAGE FUNCTIONS==========*//
