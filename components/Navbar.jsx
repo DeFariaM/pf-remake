@@ -2,6 +2,7 @@ import Image from "next/image";
 import NavLink from "./NavLink";
 import {
   ArrowLeftStartOnRectangleIcon,
+  HeartIcon,
   ShoppingCartIcon,
   StarIcon,
   UserIcon,
@@ -11,7 +12,7 @@ import Btn from "./Btn";
 export default function Navbar() {
   const user = true;
   return (
-    <div className="fixed top-0 grid w-full grid-cols-3 bg-gray-200 px-10 py-2 shadow-md">
+    <div className="fixed top-0 z-50 grid w-full grid-cols-3 bg-gray-200 px-10 py-2 shadow-md">
       <div className="col-auto flex items-center justify-start">
         <Image src={"img/logo.svg"} width={38} height={38} alt="" />
       </div>
@@ -27,6 +28,12 @@ export default function Navbar() {
               path={"/reviews"}
               justIcon={true}
               icon={<StarIcon />}
+            />
+            <NavLink
+              title={"Favoritos"}
+              path={"/favoritos"}
+              justIcon={true}
+              icon={<HeartIcon />}
             />
             <NavLink
               title={"Carrito"}
