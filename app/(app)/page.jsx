@@ -1,12 +1,9 @@
-import React from "react";
+import HeroSection from "@/components/sections/Hero";
 
 export default function Home() {
   return (
     <div>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error quis
-      delectus consequatur aperiam excepturi, maiores accusantium, quos placeat
-      tempore eveniet et eius vel labore dignissimos, quae ut. Ducimus,
-      deleniti!
+      <HeroSection />
     </div>
   );
 }
