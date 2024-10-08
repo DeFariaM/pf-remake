@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('../public/img/subtle-prism.svg')",
+        tornado: "url('../public/img/diamond-sunset.svg')",
       },
     },
   },
